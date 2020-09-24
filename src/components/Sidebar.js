@@ -29,8 +29,7 @@ const Sidebar = (props) => {
             <hr/>
 
             {props.playlists?.items?.map(playlist => {
-                console.log(playlist)
-                return < SidebarOption
+                 return < SidebarOption
                 option = {playlist.name}
                 />
             })}

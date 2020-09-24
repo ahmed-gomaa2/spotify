@@ -13,8 +13,7 @@ const Body = (props) => {
     useEffect(() => {
         if (props.token){
             props.getDiscoverWeekly()
-            console.log(props.discoverWeekly)
-        }
+         }
     }, [props.token])
     return (
         <div className={'body'}>

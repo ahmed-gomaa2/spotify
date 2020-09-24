@@ -3,8 +3,7 @@ const initialState = 'BQD016DslRSAvus3PdcmDR-m0kTh-SUSxKG_95kq5J-54J6kj7EX_SjSEF
 export default function (state= null, action) {
     switch (action.type) {
         case 'PULL_OUT_TOKEN':
-            console.log(action.payload)
-            return action.payload
+             return action.payload
         default:
             return state
     }
